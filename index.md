@@ -2,7 +2,6 @@
 
 I am currently a PhD student at University of Pennsylvania working on highly multi-disciplinary research. I enjoy researching on machine learning, in particular statistical machine learning, optimization and deep neural networks. My ambition is to develop algorithms and models that are mathematically solid, empirically strong, intuitively simple and highly generalizable.
 
-Research should be fun, but sometimes one lacks the stepping stones to get into the flow. Hopefully my posts help you gain some insights.
 
 ## More about me
 [My personal website](https://sites.google.com/view/zhiqi-bu)
