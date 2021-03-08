@@ -8,6 +8,8 @@ I am currently a PhD student at University of Pennsylvania working on highly mul
 
 [My Google Scholar](https://scholar.google.com/citations?user=MEvTLxIAAAAJ&hl=en)
 
+My email: [woodyx218@gmail.com](mailto:woodyx218@gmail.com)
+
 ### Some topics I have worked on:
 - Neural network theory
 - Differential privacy
