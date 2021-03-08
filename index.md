@@ -6,6 +6,7 @@ Research should be fun, but sometimes one lacks the stepping stones to get into 
 
 ## More about me
 [My personal website](https://sites.google.com/view/zhiqi-bu)
+
 [My Google Scholar](https://scholar.google.com/citations?user=MEvTLxIAAAAJ&hl=en)
 
 ### Some topics I have worked on:
@@ -17,6 +18,9 @@ Research should be fun, but sometimes one lacks the stepping stones to get into 
 - Semi-parametric models
 - Adversarial robustness
 
+---
+layout: default
+---
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
