@@ -18,9 +18,7 @@ Research should be fun, but sometimes one lacks the stepping stones to get into 
 - Semi-parametric models
 - Adversarial robustness
 
----
-layout: default
----
+
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
