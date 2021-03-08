@@ -1,5 +1,7 @@
 theme: jekyll-theme-architect
-title: Zhiqi Bu’s Technical Blog
-description: This is a technical blog of topics that I find interesting and insightful.
+title: Zhiqi Bu’s Blog
+description: This is a technical blog of machine learning topics that I find interesting and insightful.
 github:
   is_project_page: false
+author: Zhiqi Bu
+email: woodyx218@gmail.com
