@@ -1,3 +1,5 @@
 theme: jekyll-theme-architect
-title: Welcome to the Octocat’s homepage!
-description: what
+title: Zhiqi Bu’s Technical Blog
+description: This is a technical blog of topics that I find interesting and insightful.
+github:
+  is_project_page: false
