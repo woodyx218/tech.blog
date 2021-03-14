@@ -17,6 +17,7 @@ permalink: /projects/
 		</figure>
 		<p>{{ post.excerpt }}</p>
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      	<div class='is-divider-vertical'><div>
       </div>
     </article>
 
