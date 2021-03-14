@@ -5,6 +5,7 @@ permalink: /projects/
 ---
 <div class="posts">
   {% for post in site.posts %}
+	<div>
     <article class="post">
 
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
@@ -17,6 +18,7 @@ permalink: /projects/
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
       </div>
     </article>
+    <div>
 
   {% endfor %}
 </div>
