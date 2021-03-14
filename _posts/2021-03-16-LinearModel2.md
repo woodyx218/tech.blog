@@ -25,29 +25,33 @@ Then L1 norm is simply the sum of absolute values of entries in $x$.
 Now we return to the OLS problem, which is an unconstrained optimization problem:
 $$\min_b \frac{1}{2}\|y-Xb\|^2$$
 
-We can set the L1 constraint on the problem to get the Lasso problem:
+We can set the L1 constraint on the problem to get the *Lasso problem (constraint definition)*:
 $$\begin{align}
-\textbf{Lasso (constraint definition):}\quad\quad\quad\quad\min_b &\frac{1}{2}\|y-Xb\|^2
+\min_b &\frac{1}{2}\|y-Xb\|^2
 \\
 \text{s.t.} &\|b\|_{1} \leq t
 \end{align}
 $$
-Or equivalently,
+Or equivalently the *Lasso problem (penalty definition)*,
 $$
 \begin{align}
-\textbf{Lasso (penalty definition)}\quad\quad\quad\quad\min_b &\frac{1}{2}\|y-Xb\|^2+\lambda\|b\|_1
+\min_b &\frac{1}{2}\|y-Xb\|^2+\lambda\|b\|_1
 \end{align}
 $$
 
+This equivalence between constraint and penalty definitions also generally holds for other norm regularization. E.g.
 $$
 \begin{align}
 \begin{cases}
-a&b
+\min_b &\frac{1}{2}\|y-Xb\|^2
 \\
-c&d
+\text{s.t.} &\text{norm}(b) \leq t
 \end{cases}
+\Longleftrightarrow
+\min_b &\frac{1}{2}\|y-Xb\|^2+\lambda\text{norm}(b)
 \end{align}
 $$
+
 Different $L_p$ norms
 
 Linear models is one of the most fundamental models in machine learning. Even though they have been studied for decades, there still exist surprising facts awaiting discovery. And I am sure in this post, you will find something you didn't know before.
