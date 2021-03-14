@@ -4,13 +4,11 @@ layout: page
 permalink: /projects/
 ---
   
-<style>
-   .aSeparator {
-    border-top:1px solid #5f656d;
-    height:1px;
-    margin:16px 0;
-   }
-<style>
+.aSeparator {
+border-top:1px solid #5f656d;
+height:1px;
+margin:16px 0;
+}
 
 <div class="posts">
   {% for post in site.posts %}
