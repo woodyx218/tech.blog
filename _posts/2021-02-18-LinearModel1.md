@@ -68,6 +68,11 @@ Fortunately, OLS has been studied extensively and, due to its closed form, we ca
 
 See [Wiki: Proofs of OLS](https://en.wikipedia.org/wiki/Proofs_involving_ordinary_least_squares) for some details.
 
-However, we remark that OLS is a very special problem of linear regression, in the sense that most other problems (e.g. LASSO, Group LASSO, SLOPE) do not have closed-form solutions. This situation makes the analysis of LASSO difficult. Even though LASSO was proposed in 1996, I still publish at [NeurIPS spotlight 2020](https://papers.nips.cc/paper/2020/hash/e7db14e12fb49c1d78a573e6e5f542c2-Abstract.html) on its statistical analysis.
+However, we remark that OLS is a very special problem of linear regression, in the sense that most other problems (e.g. LASSO, Group LASSO, SLOPE) do not have closed-form solutions. This situation makes the analysis of LASSO difficult. Even though LASSO was proposed in 1996, I still publish at [NeurIPS spotlight 2020](https://papers.nips.cc/paper/2020/hash/e7db14e12fb49c1d78a573e6e5f542c2-Abstract.html) on its statistical analysis in high dimension.
 
 # Tips for Research
+It is important to clearly understand the components in research: 
+
+$$model\to problem\to approach\to methods\to theory$$
+
+A brilliant work can focus on any of these components and usually is a blend of two to three components. For example, generative adversarial network (GAN) promotes a new model and a new optimization problem to learn it; Heavy Ball is a significant work on the methods; NTK provides a convergence theory for existing optimizers on existing optimization problems of existing neural networks.
