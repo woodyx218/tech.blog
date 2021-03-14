@@ -14,9 +14,9 @@ permalink: /projects/
 	      <img src="{{ post.image.path }}" alt='missing' width='{{post.image.width}}' style='margin:20px auto; display:inline-block' text-align='center'/>
 		</figure>
 		<p>{{ post.excerpt }}</p>
-      </div>
-
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      </div>
     </article>
+
   {% endfor %}
 </div>
