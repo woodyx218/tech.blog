@@ -26,25 +26,28 @@ Now we return to the OLS problem, which is an unconstrained optimization problem
 $$\min_b \frac{1}{2}\|y-Xb\|^2$$
 
 We can set the L1 constraint on the problem to get the Lasso problem:
-\begin{align}
-\textbf{Lasso with constraint definition:}\quad\quad\quad\quad\min_b &\frac{1}{2}\|y-Xb\|^2
+$$\begin{align}
+\textbf{Lasso (constraint definition):}\quad\quad\quad\quad\min_b &\frac{1}{2}\|y-Xb\|^2
 \\
 \text{s.t.} &\|b\|_{1} \leq t
 \end{align}
-
+$$
 Or equivalently,
+$$
 \begin{align}
-\textbf{Lasso with penalty definition:}\quad\quad\quad\quad\min_b &\frac{1}{2}\|y-Xb\|^2+\lambda\|b\|_1
+\textbf{Lasso (penalty definition)}\quad\quad\quad\quad\min_b &\frac{1}{2}\|y-Xb\|^2+\lambda\|b\|_1
 \end{align}
+$$
 
+$$
 \begin{align}
 \begin{cases}
 a&b
-\\\\
+\\
 c&d
 \end{cases}
 \end{align}
-
+$$
 Different $L_p$ norms
 
 Linear models is one of the most fundamental models in machine learning. Even though they have been studied for decades, there still exist surprising facts awaiting discovery. And I am sure in this post, you will find something you didn't know before.
