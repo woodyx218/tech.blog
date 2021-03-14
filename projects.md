@@ -3,12 +3,6 @@ title:
 layout: page
 permalink: /projects/
 ---
-  
-.aSeparator {
-border-top:1px solid #5f656d;
-height:1px;
-margin:16px 0;
-}
 
 <div class="posts">
   {% for post in site.posts %}
@@ -24,7 +18,7 @@ margin:16px 0;
 		<p>{{ post.excerpt }}</p>
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
       </div>
-      <div class="aSeparator"></div>
+	<p>-------------------------------------------------------------------------------------</p>
     </article>
 
   {% endfor %}
