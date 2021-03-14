@@ -16,15 +16,19 @@ LASSO is the combination of L1 regularization and linear regression. If we chang
 We first introduce the L1 regularization, starting from the L1 norm.
 
 ## L1 regularization
-Given a verctor $\bm x$, one can compute the $L_p$ norm
+Given a verctor $x$, one can compute the $L_p$ norm
 
 $$\left\|x\right\|_{p}=\left(|x_{1}|^{p}+|x_{2}|^{p}+\cdots +|x_{n}|^{p}\right)^{1/p}.$$
 
-Then L1 norm is simply the sum of absolute values of entries in $\bm x$.
+Then L1 norm is simply the sum of absolute values of entries in $x$.
 
 Now we return to the OLS problem and in fact set a constraint on the optimization:
 \begin{align}
-sss
+\begin{cases}
+a&b
+\\
+c&d
+\end{cases}
 \end{align}
 
 Different $L_p$ norms
