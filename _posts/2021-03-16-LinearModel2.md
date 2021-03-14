@@ -4,7 +4,7 @@ title: Linear Models - LASSO Optimization and Statistics
 watch: true
 excerpt: Introduction to the sparse solution LASSO and L1 regularization, from optimization and statistical analysis points of view.
 image:
-    path: images/linear_equation.png
+    path: ../images/linear_equation.png
     width: 70%
 categories: statistics optimization linear_model high_dimension regularization
 ---
