@@ -24,7 +24,9 @@ categories: statistics optimization linear_model high_dimension
 Linear models is one of the most fundamental models in machine learning. Even though they have been studied for decades, there still exist surprising facts awaiting discovery. And I am sure in this post, you will find something you didn't know before.
 
 Consider a linear regression **model**
+
 $$y=X\beta+\epsilon$$
+
 Here $y\in\mathbb{R}^n$ is the response or the label, $X\in\mathbb{R}^{n\times p}$ is the data matrix or measurement, $\beta\in\mathbb{R}^p$ is the unknown parameter we are interested in and $\epsilon$ is some random noise.
 
 How do we learn the parameters $\beta$? We need to formulate **problems**.
@@ -32,16 +34,21 @@ How do we learn the parameters $\beta$? We need to formulate **problems**.
 Some problems include the ordinary least squares (OLS), LASSO, Ridge, Elastic Net...
 
 Let's start with the simplest problem: OLS
+
 $$\min{b}\frac{1}{2}\|y-Xb\|^2$$
 
 We will talk about other problems in a separate post. (link to be added)
 
-There are two approaches to learn the parameters $\beta$
+## Optimization
+There are two approaches to learn the parameters $\beta$:
+
 \begin{enumerate}
-\item s
+\item closed-form solution $\hat\beta=(X^\top X)^{-1}X^\top y$
+\item iterative solution, e.g. through gradient descent
 \end{enumerate}
 
-Take the simplest OLS as an example, traditional statistics theory allows us to learn $\beta$ (either through the closed-form $(X^\top X)^{-1}$ or through iterative algorithms such as gradient descent) as well as to characterize its statistical behaviors. These include the statistical consistency and asymptotic normality. See [Wiki: Proofs of OLS](https://en.wikipedia.org/wiki/Proofs_involving_ordinary_least_squares) for details.
+
+as well as to characterize its statistical behaviors. These include the statistical consistency and asymptotic normality. See [Wiki: Proofs of OLS](https://en.wikipedia.org/wiki/Proofs_involving_ordinary_least_squares) for details.
 
 Naturally, we want 
 
