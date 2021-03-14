@@ -36,8 +36,9 @@ Some problems include the ordinary least squares (OLS), LASSO, Ridge, Elastic Ne
 Let's start with the simplest problem: OLS
 $$\min{b}\frac{1}{2}\|y-Xb\|^2$$
 
+We will talk about other problems in a separate post. (link to be added)
 
-This is a linear model which can be learned through different problems. Some common problems are ordinary least squares (OLS), LASSO, Ridge ...
+There are two approaches to learn the parameters $\beta$
 
 Take the simplest OLS as an example, traditional statistics theory allows us to learn $\beta$ (either through the closed-form $(X^\top X)^{-1}$ or through iterative algorithms such as gradient descent) as well as to characterize its statistical behaviors. These include the statistical consistency and asymptotic normality. See [Wiki: Proofs of OLS](https://en.wikipedia.org/wiki/Proofs_involving_ordinary_least_squares) for details.
 
