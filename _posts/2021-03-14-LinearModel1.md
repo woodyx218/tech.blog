@@ -2,7 +2,7 @@
 layout: post
 title: Linear Models - OLS Optimization and Statistics
 watch: true
-excerpt: Introduction to linear models, their optimization and statistical analysis, which motivates my researches.
+excerpt: Introduction to OLS, its optimization issues and statistics, which motivated my researches.
 image:
     path: images/linear1.png
     width: 70%
