@@ -1,15 +1,13 @@
 ---
 layout: post
-title:  Linear Models: OLS Optimization and Statistics
+title: Linear Models - OLS Optimization and Statistics
 watch: true
 excerpt: Introduction to linear models, their optimization and statistical analysis, which motivates my researches.
 image:
     path: images/amp1.png
     width: 70%
-comments: true
 categories: statistics optimization linear_model high_dimension
 ---
-
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" }, extensions:["color.js"] } }); </script>
 <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
