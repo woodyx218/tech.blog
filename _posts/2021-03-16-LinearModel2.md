@@ -6,7 +6,7 @@ excerpt: Introduction to the sparse solution LASSO and L1 regularization, from o
 image:
     path: ../images/linear_equation.png
     width: 70%
-categories: statistics optimization linear_model high_dimension regularization
+tags: statistics optimization linear_model high_dimension regularization
 ---
 
 
