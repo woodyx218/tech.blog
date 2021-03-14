@@ -24,17 +24,11 @@ Then L1 norm is simply the sum of absolute values of entries in $x$.
 
 Now we return to the OLS problem and in fact set a constraint on the optimization:
 
-\\[
-\lim_{n \to \infty} \E[\lambda_{\max}(A)]= \phi(\lambda) = \begin{cases}
-2, ~~~& \lambda \le 1, \\\
-\lambda + \frac{1}{\lambda}, ~~~& \lambda > 1.
-\end{cases}
-\\]
-
 \begin{align}
 \begin{cases}
 a&b
-\\\
+\\\\
+
 c&d
 \end{cases}
 \end{align}
