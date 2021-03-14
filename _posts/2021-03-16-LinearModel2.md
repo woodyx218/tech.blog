@@ -11,9 +11,9 @@ tags: statistics optimization linear_model high_dimension regularization
 
 
 # Introduction to LASSO
-LASSO is the combination of L1 regularization and linear regression. If we change L1 regularization to others, then we get a different problem (e.g. sorted L1 norm regularization is the SLOPE problem; L2 norm regularization is Ridge). Similarly, if we change linear regression to a neural network, then we end up with a sparse network.
+LASSO is the combination of L1 regularization and linear regression ($y=X\beta+\epsilon$). If we change L1 regularization to others, then we get a different problem (e.g. sorted L1 norm regularization is the SLOPE problem; L2 norm regularization is Ridge). Similarly, if we change linear regression to a neural network, then we end up with a sparse network.
 
-We first introduce the L1 regularization, starting from the L1 norm.
+We first introduce the L1 regularization (or the L1 penalty), starting from the L1 norm.
 
 ## L1 regularization
 Given a verctor $x$, one can compute the $L_p$ norm
@@ -22,13 +22,25 @@ $$\left\|x\right\|_{p}=\left(|x_{1}|^{p}+|x_{2}|^{p}+\cdots +|x_{n}|^{p}\right)^
 
 Then L1 norm is simply the sum of absolute values of entries in $x$.
 
-Now we return to the OLS problem and in fact set a constraint on the optimization:
+Now we return to the OLS problem, which is an unconstrained optimization problem:
+$$\min_b \frac{1}{2}\|y-Xb\|^2$$
+
+We can set the L1 constraint on the problem to get the Lasso problem:
+\begin{align}
+\textbf{Lasso with constraint definition:}\quad\quad\quad\quad\min_b &\frac{1}{2}\|y-Xb\|^2
+\\
+\text{s.t.} &\|b\|_{1} \leq t
+\end{align}
+
+Or equivalently,
+\begin{align}
+\textbf{Lasso with penalty definition:}\quad\quad\quad\quad\min_b &\frac{1}{2}\|y-Xb\|^2+\lambda\|b\|_1
+\end{align}
 
 \begin{align}
 \begin{cases}
 a&b
 \\\\
-
 c&d
 \end{cases}
 \end{align}
