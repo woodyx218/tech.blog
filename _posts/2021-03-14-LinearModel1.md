@@ -6,7 +6,7 @@ excerpt: Introduction to OLS, its optimization issues and statistics, which moti
 image:
     path: images/linear1.png
     width: 70%
-categories: statistics optimization linear_model high_dimension
+tags: statistics optimization linear_model high_dimension
 ---
 
 
