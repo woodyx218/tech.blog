@@ -26,7 +26,7 @@ Now we return to the OLS problem and in fact set a constraint on the optimizatio
 \begin{align}
 \begin{cases}
 a&b
-\\
+\\\
 c&d
 \end{cases}
 \end{align}
