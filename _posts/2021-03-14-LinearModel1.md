@@ -4,7 +4,7 @@ title: Linear Models - OLS Optimization and Statistics
 watch: true
 excerpt: Introduction to OLS, its optimization issues and statistics, which motivated my researches.
 image:
-    path: images/linear1.png
+    path: ../images/linear1.png
     width: 70%
 tags: statistics optimization linear_model high_dimension
 ---
