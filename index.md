@@ -8,7 +8,9 @@ I am currently a PhD student at University of Pennsylvania working on highly mul
 
 [My Google Scholar](https://scholar.google.com/citations?user=MEvTLxIAAAAJ&hl=en)
 
-### Some topics I have worked on:
+---
+
+## Some topics I have worked on:
 - Neural network theory
 - Differential privacy
 - L1 regularization in linear model
@@ -17,4 +19,4 @@ I am currently a PhD student at University of Pennsylvania working on highly mul
 - Semi-parametric models
 - Adversarial robustness
 
-See the page 'Categories' for details.
+See the page 'Categories' for the list of topics and page 'Posts' for articles.
