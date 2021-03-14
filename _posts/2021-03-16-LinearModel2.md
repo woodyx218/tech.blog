@@ -11,6 +11,24 @@ tags: statistics optimization linear_model high_dimension regularization
 
 
 # Introduction to LASSO
+LASSO is the combination of L1 regularization and linear regression. If we change L1 regularization to others, then we get a different problem (e.g. sorted L1 norm regularization is the SLOPE problem; L2 norm regularization is Ridge). Similarly, if we change linear regression to a neural network, then we end up with a sparse network.
+
+We first introduce the L1 regularization, starting from the L1 norm.
+
+## L1 regularization
+Given a verctor $\bm x$, one can compute the $L_p$ norm
+
+$$\left\|x\right\|_{p}=\left(|x_{1}|^{p}+|x_{2}|^{p}+\cdots +|x_{n}|^{p}\right)^{1/p}.$$
+
+Then L1 norm is simply the sum of absolute values of entries in $\bm x$.
+
+Now we return to the OLS problem and in fact set a constraint on the optimization:
+\begin{align}
+sss
+\end{align}
+
+Different $L_p$ norms
+
 Linear models is one of the most fundamental models in machine learning. Even though they have been studied for decades, there still exist surprising facts awaiting discovery. And I am sure in this post, you will find something you didn't know before.
 
 Consider a linear regression **model**
