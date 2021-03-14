@@ -19,4 +19,4 @@ I am currently a PhD student at University of Pennsylvania working on highly mul
 - Semi-parametric models
 - Adversarial robustness
 
-See the page 'Categories' for the list of topics and page 'Posts' for articles.
+See the page **Categories** for the list of topics and page **Posts** for articles.
