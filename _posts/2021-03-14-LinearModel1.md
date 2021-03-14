@@ -10,7 +10,7 @@ categories: statistics optimization linear_model high_dimension
 ---
 
 
-# Introduction to OLS
+## Introduction to OLS
 Linear models is one of the most fundamental models in machine learning. Even though they have been studied for decades, there still exist surprising facts awaiting discovery. And I am sure in this post, you will find something you didn't know before.
 
 Consider a linear regression **model**
@@ -27,7 +27,7 @@ Let's start with the simplest problem: OLS
 
 $$\min_{b} \frac{1}{2}\|y-Xb\|^2$$
 
-## Optimization
+### Optimization
 There are two **approaches** to learn the parameters $\beta$ through the OLS optimization problem:
 
 1. closed-form solution $\hat\beta=(X^\top X)^{-1}X^\top y$
@@ -58,7 +58,7 @@ In high dimension, there are infinitely many OLS minimizers, all achieving zero 
 
 This is part of the reason that we need regularization and problems such as LASSO. I will talk about these problems in a separate post. (link to be added??)
 
-## Statistics
+### Statistics
 Fortunately, OLS has been studied extensively and, due to its closed form, we can characterize many of its statistical behaviors. These include:
 
 1. statistical consistency (in fact $\hat\beta\to\beta$ as $n\to\infty$, at rate $1/\sqrt{n}$)
@@ -70,7 +70,7 @@ See [Wiki: Proofs of OLS](https://en.wikipedia.org/wiki/Proofs_involving_ordinar
 
 However, we remark that OLS is a very special problem of linear regression, in the sense that most other problems (e.g. LASSO, Group LASSO, SLOPE) do not have closed-form solutions. This situation makes the analysis of LASSO difficult. Even though LASSO was proposed in 1996, I still publish at [NeurIPS spotlight 2020](https://papers.nips.cc/paper/2020/hash/e7db14e12fb49c1d78a573e6e5f542c2-Abstract.html) on its statistical analysis in high dimension.
 
-# Tips for Research
+## Tips for Research
 It is important to clearly understand the components in research: 
 
 $$model\to problem\to approach\to methods\to theory$$
