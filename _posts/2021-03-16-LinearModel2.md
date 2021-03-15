@@ -34,7 +34,9 @@ $$\begin{align}
 \text{s.t.} &\|b\|_{1} \leq t
 \end{align}
 $$
+
 Or equivalently the *Lasso problem (penalty definition)*,
+
 $$
 \begin{align}
 \min_b &\frac{1}{2}\|y-Xb\|^2+\lambda\cdot\|b\|_1
@@ -42,6 +44,7 @@ $$
 $$
 
 This equivalence between constraint and penalty definitions also generally holds for other norm regularization. E.g.
+
 $$
 \begin{align}
 \begin{cases}
